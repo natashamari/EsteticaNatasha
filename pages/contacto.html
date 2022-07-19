@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../estilos.css/styles.css">
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+  />
+
+</head>
+
+<body class="body">
+    <div class="contenedor">
+        <header class="header">
+          <div>     
+              <a href="../index.html"><img class="logo" src="../imagenes/logo.jpeg" alt="logo" ></a>
+          </div>
+          <label for="menu" class="header__burguerMenu">
+          <i class="fa-solid fa-bars"></i>
+          </label>
+          <input type="checkbox" id="menu">
+          <nav class="header__menu">
+          <label for="menu" class="header__closeMenu">
+              <i class="fa-solid fa-circle-xmark"></i>
+          </label>
+              <ul>
+                <ul>
+                    <li><a href="../index.html" title="Inicio  ">Inicio</a></li>
+                    <li><a href="depilacion.html">Depilacion</a></li>
+                    <li><a href="tratamientos-corporales.html">Tratamientos Corporales</a></li>
+                    <li><a href="tratamientos-faciales.html">Tramientos Faciales</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+              </ul>
+              </nav>  
+         </header>
+    <main>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26288.865119240425!2d-58.494540556129465!3d-34.550817266436326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb696ab5cb4ed%3A0x887c745720a0e9b6!2sParque%20Saavedra!5e0!3m2!1ses-419!2sar!4v1647435388829!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <form action="/4 - formulario" nethod="get" enctype="">
+            <fieldset>
+                <legend>Contacto</legend>
+                <label for="nombre">Nombre</label>
+                
+                <input type="text" name="userName" id="nombre">
+                
+                <label for="nombre">Apellido</label>
+                
+                <input type="text" name="lastName" id="apellido">
+                <br>
+                <input type="number" name="age" placeholder="ingresa tu edad">
+                <br>
+                <input type="tel" name="phone" placeholder="telefono">
+                <br>
+                <input type="email" name="email" placeholder="Ingresa tu email" required>
+                <br>
+                <textarea name="message" placeholder="Deja tu mensaje" cols="30" rows=""></textarea>
+                <br>
+                <input type="submit" value="Enviar"/>
+            </fieldset>
+       </form>
+    </main>
+    <aside class="aside">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, corporis! Quo incidunt officiis ipsam rem reiciendis ex quae enim cumque!</p>
+    </aside>
+    <footer class="footer">
+        <div class="footer__socialMedia-container">
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href="" class="logoWp"><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+      </footer>
+</body>
+</html>
